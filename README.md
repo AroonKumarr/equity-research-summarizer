@@ -93,6 +93,12 @@ Edit
 | `scripts/` *(optional)* | Any pre-processing or setup scripts   |
 | `vectorstore/`      | (Optional) Saved FAISS index           |
 
----
+git add README.md
 
-Would you like me to generate a `requirements.txt` from your current project too?
+### 🔐 Environment Setup
+
+1. Rename `.env.example` to `.env`  
+2. Add your OpenAI API key inside:
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
