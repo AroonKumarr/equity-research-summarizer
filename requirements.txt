@@ -1,0 +1,21 @@
+# Core packages
+python-dotenv
+streamlit
+
+# LangChain modules (modular installation)
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+
+# Vector Store
+faiss-cpu
+
+# OpenAI
+openai
+
+# For Unstructured Web Data Loading (used by UnstructuredURLLoader)
+unstructured
+html2text
+lxml
